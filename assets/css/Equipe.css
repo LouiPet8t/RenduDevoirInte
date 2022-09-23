@@ -1,0 +1,111 @@
+.banniere-actualite{
+    background-image: url("/assets/img/Equipe/Bannière.png");
+    width: auto;
+}
+
+.bann{
+    width: auto;
+    height: 627px;
+    background-color: rgba(0, 0, 0, 0.50);
+}
+
+.phrase-banniere{
+    width: 1100px;
+}
+
+.NotreEquipe{
+    margin-left: 140px;
+    width: 670px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.NotreEquipe p{
+    font-size: 20px;
+    color: #707070;
+}
+
+.Patricia{
+    width: 535px;
+    height: 210px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+    
+}
+
+.OffreEmploi{
+    margin-left: 140px;
+    margin-top: 122px;
+    width: 1464px;
+}
+
+.gridEmploi{
+    margin-top: 47px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 120px;
+
+}
+
+.cdi{
+    padding-left: 35px;
+    padding-top: 25px;
+}
+
+.cdi2{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.emploie{
+    color: #615B57;
+    font-size: 22px;
+}
+
+.lieu{
+    font-style: italic;
+
+}
+
+.gridEmploi div{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    height: 121px;
+}
+
+.candidature{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00FF00;
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+}
+
+.start p{
+    font-size: 25px;
+    color: #707070;
+}
+
+.OffreEmploi button{
+    display: block;
+    border:0;
+    text-align: center;
+    background: #000;
+    color: #fff;
+    border-radius: 30px;
+    font-size: 29px;
+    width: 288px;
+    height: 59px;
+    margin-top: 87px;
+    cursor: pointer;
+}
+
+.OffreEmploi{
+    margin-bottom: 173px;
+}

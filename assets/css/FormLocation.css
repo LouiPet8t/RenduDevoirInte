@@ -1,0 +1,54 @@
+.banniere-location{
+    background-image: url("/assets/img/Form/Bannière1.png");
+    width: auto;
+}
+
+.titre{
+    width: 400px;
+}
+
+
+.page {
+    padding-top: 54px;
+}
+
+.bouton{
+    display: flex;
+
+}
+
+.noir button{
+    cursor: pointer;
+    border:0;
+    text-align: center;
+    background: #000;
+    color: #fff;
+    border-radius: 30px;
+    font-size: 29px;
+    width: 368px;
+    height: 59px;
+    z-index: 9999;
+    margin-right: 25px;
+}
+
+.noir button:hover{
+    background: #CFC8C6;
+    color: #000;
+}
+
+.gris button:hover{
+    background: #000;
+    color: #fff;
+}
+.gris button{
+    cursor: pointer;
+    border:0;
+    text-align: center;
+    background: #CFC8C6;
+    color: #000;
+    border-radius: 30px;
+    font-size: 29px;
+    width: 201px;
+    height: 59px;
+    z-index: 9999;
+}

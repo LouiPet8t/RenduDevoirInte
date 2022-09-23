@@ -1,0 +1,133 @@
+.banniere-client{
+    background-image: url("/assets/img/Client/baniere.png");
+    width: auto;
+}
+
+.bann{
+    width: auto;
+    height: 627px;
+    background-color: rgba(0, 0, 0, 0.50);
+}
+.decal button:hover{
+    background-color: grey;
+}
+.icon{
+    width: 1156px;
+    margin-bottom: 175px;
+}
+
+.icon .container{
+    display: grid;
+    grid-template-columns:repeat(5,1fr);
+    margin-bottom: 34px;
+    grid-gap: 49px;
+    
+}
+.decal{
+    padding-left: 140px;
+}
+
+.container .form{
+    height: 200px;
+    width: 192px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.icon .img{
+    width: 192px;
+    height: 92;
+    background-color: #CFC8C6;
+}
+
+.icon .phrase{
+    width: 192px;
+    height: 108px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 22px;
+    text-align: center;
+
+}
+
+.icon .phrase p{
+    font-size: 20px;
+    color: #707070;
+}
+
+.form .img{
+    height: 92px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.icon{
+    position: relative;
+    bottom: 50px;
+}
+
+
+
+/* Securite */
+.photo{
+    width: 612px;
+    margin-right: 115px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.desc{
+    width: 612px;
+    height: 167px;
+    background-color: #00FF00;
+    text-align: center;
+    align-items: center;
+    font-size: 45px;
+    font-weight: bold;
+    bottom: 5px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding-left: 105px;
+    padding-right: 105px;
+}
+
+.titre p{
+    font-size: 30px;
+    font-weight: bold;
+    color: #615B57;
+}
+.texte p{
+    color: #615B57;
+    font-size: 30px;
+    width: 857px;
+}
+
+
+.ligne{
+    display: flex;
+    margin-bottom: 340px;
+}
+
+.ligne button{
+    margin-top: 60px;
+    border:0;
+    text-align: center;
+    background: #000;
+    color: #fff;
+    border-radius: 30px;
+    font-size: 29px;
+    width: 396px;
+    cursor: pointer;
+    height: 59px;
+}
+
+.fleche{
+    display: flex;
+    justify-content: flex-end;
+    margin: 147px;
+
+}
+
+

@@ -1,0 +1,87 @@
+.banniere-valeurs{
+    background-image: url("/assets/img/Valeurs/Bannière.png");
+    width: auto;
+}
+
+.bann{
+    width: auto;
+    height: 627px;
+    background-color: rgba(0, 0, 0, 0.50);
+}
+
+
+.phrase-banniere{
+    width: 1100px;
+}
+
+.page{
+    margin-bottom: 125px;
+    margin-left: 140px;
+    margin-top: 126px;
+}
+
+.ValeurContainer{
+    display: flex;
+    margin-bottom: 170px;
+}
+.ValeurContainer .img{
+    margin-left:25px ;
+    margin-right: 140px;
+}
+
+.desc{
+    width: 850px;
+    font-size: 30px;
+    color: #615B57;
+}
+
+.number{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 95px;
+    width: 95px;
+    background-color: #00FF00;
+    font-size: 65px;
+    font-weight: bold;
+    position: relative;
+    top: 62px;
+
+}
+
+.bouton button{
+    cursor: pointer;
+    border:0;
+    text-align: center;
+    background: #000;
+    color: #fff;
+    border-radius: 30px;
+    font-size: 29px;
+    width: 380px;
+    height: 59px;
+    z-index: 9999;
+}
+
+.bouton{
+    width: 520px;
+    height: 175;
+    /* display: flex; */
+}
+.bouton2{
+    display: flex;
+    justify-content: flex-end;
+    height: 175px;
+    align-items: center;
+    position: relative;
+    bottom: 175px;
+}
+
+.bouton .vert{
+    z-index: 1;
+    background-color: #00FF00;
+    width: 399px;
+    height: 175px;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 90px;
+}

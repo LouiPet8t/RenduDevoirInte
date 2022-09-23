@@ -1,0 +1,76 @@
+.Magasin{
+    width: 100%;
+    /* height: 1281px; */
+    margin-top: 174px;
+    /* border:1px solid black; */
+    margin-left: 0 !important;
+    z-index: 9999;
+    position: relative;
+}
+
+.infomag{
+    /* border:1px solid black; */
+    padding-left: 140px;
+    width: 1320px;
+    height: 700px;
+    background-color: #fff;
+    z-index: 9999;
+}
+
+/* Tableaux */
+table{
+    border-collapse: collapse;
+}
+
+td{
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+}
+
+.td1{
+    width: 237px;
+    color: #fff;
+    background-color: #000;
+}
+
+.td2{
+    width: 189px;
+}
+
+.table2{
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.textmag{
+    display: block;
+    width: 1023px;
+    height: 216px;
+    margin-top: 42px;
+    margin-bottom: 72px;
+}
+.textmag p{
+    display: block;
+    font-size: 20px;
+    color: #615B57;
+    margin-right: 74px;
+}
+
+.infomag button{
+    cursor: pointer;
+    width: 331px;
+    height: 59px;
+    border-radius: 30px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    font-size: 29px;
+    border: 0;
+    margin-bottom: 110px;
+}
+
+.infomag button:hover{
+    background-color: grey;
+}
+/* Carousel */

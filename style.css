@@ -1,0 +1,39 @@
+body{
+    background:grey;
+}
+
+.slider{
+    margin:0 auto ;
+}
+
+.img-div{
+    width: 536px;
+    height: 560px;
+    margin-right:20px ;
+}
+
+.div1{
+    background-image: url("assets/img/c1.png");
+    /* background-size: cover; */
+    width: 536px;
+    height: 560px;
+}
+.div2{
+    background-image: url("assets/img/c2.png");
+    background-size: cover;
+    width: 536px;
+    height: 560px;
+}
+.div3{
+    background-image: url("assets/img/c1.png");
+    /* background-size: cover; */
+    width: 536px;
+    height: 560px;
+}
+.div4{
+    background-image: url("assets/img/c2.png");
+    /* background-size: cover; */
+    width: 536px;
+    height: 560px;
+}
+

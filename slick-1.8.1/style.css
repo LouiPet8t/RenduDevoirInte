@@ -1,0 +1,31 @@
+body{
+    background-image:grey
+}
+
+.slider{
+    margin:0 auto ;
+}
+
+.img-div{
+    width: 536px;
+    height: 560px;
+    margin:0 15px ;
+}
+
+.div1{
+    background-image: url("../assets/img/c1.png") center no-repeat;
+    background-size: cover;
+}
+.div2{
+    background-image: url("../assets/img/c2.png")center no-repeat;
+    background-size: cover;
+}
+.div3{
+    background-image: url("../assets/img/c1.png")center no-repeat;
+    background-size: cover;
+}
+.div4{
+    background-image: url("../assets/img/c2.png")center no-repeat;
+    background-size: cover;
+}
+

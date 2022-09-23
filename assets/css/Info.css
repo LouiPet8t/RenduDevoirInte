@@ -1,0 +1,129 @@
+.info{
+    height: auto    ;
+    width: auto;
+    /* border:1px solid black; */
+    /* background-color: red; */
+}
+
+.conseil,.technique,.livraison{
+    /* border: 1px solid black;  */
+    width: 1773px;
+    height: 540px;
+    padding-top: 92px;
+}
+
+.conseil,.livraison{
+    margin-left: 130px;
+}
+
+.conseil .img,.technique .img,.livraison .img
+{
+    width: 1348px;
+    height: 540px;
+    z-index: 99;
+    position: relative;
+    bottom: 449px;
+}
+
+.conseil .img,.livraison .img{
+    margin-left: 425px;
+}
+
+.technique .img{
+    margin-right: 425px;
+}
+
+.conseil .conseil-text,.technique .technique-text,.livraison .livraison-text{
+    width: 959px;
+    height: 357px;
+    z-index: 999;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    /* margin-top: 92px; */
+    position: relative;
+    background-color: #fff;
+    
+}
+.technique .technique-text{
+    margin-left: 797px;
+}
+.conseil .conseil-text,.livraison .livraison-text{
+    margin-right: 797px;
+}
+
+.img-conseil,.img-technique,.img-livraison{
+    display: inline-block;
+    margin-top: 66px;
+    margin-left: 75px;
+
+}
+
+.titre-conseil,.titre-technique,.titre-livraison{
+    display:inline-block;
+    /* margin-left: 65px; */
+
+    /* margin-top: 108px; */
+    position: relative;
+    bottom: 45px;
+    margin-left: 65px;
+}
+
+
+
+.titre-conseil h3,.titre-technique h3,.titre-livraison h3{
+    font-size: 25px;
+    font-weight: bold;
+    color: #707070;
+    position: relative;
+
+}
+
+.texte-conseil,.texte-technique,.texte-livraison{
+    width: 624px;
+    height: 84px;
+    /* position: fixed; */
+    z-index: 999999999;
+    /* margin-left: 263px; */
+    margin-left: 261px;
+    margin-right: 74px;
+}
+
+.texte-conseil p,.texte-technique p,.texte-livraison p{
+    font-size: 20px;
+    color: #615B57;
+}
+
+/* technique */
+.technique{
+    margin-right: 130px;
+    border:0;
+}
+
+.question{
+    margin-top:210px;
+    margin-left: 718px;
+    position: relative;
+    z-index: 9999;
+}
+
+.btn-question{
+    font-size: 25px;
+    background-color: #000;
+    color:#fff;
+    border-radius: 30px;
+    border: 0;
+    text-align: center;
+    width: 485px;
+    height: 52px;
+    cursor: pointer;
+    z-index: 999;
+    margin-bottom: 210px;
+}
+
+.btn-question:hover{
+    background-color:grey ;
+}
+
+.livraison{
+    margin-top:428px ;
+}
+

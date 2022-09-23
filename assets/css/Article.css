@@ -1,0 +1,133 @@
+.banniere-article{
+    background-image: url("/assets/img/Article/banniere.png");
+    width: auto;
+}
+
+.bann{
+    width: auto;
+    height: 627px;
+    background-color: rgba(0, 0, 0, 0.50);
+}
+
+.article{
+    margin-left: 140px;
+}
+
+.Nouveaux{
+    padding-top: 56px;
+    padding-left: 113px;
+    padding-right: 46px;
+}
+
+.date p{
+    font-size: 20px;
+
+}
+
+.Nouveaux .titre p{
+    font-size: 75px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.Nouveaux .Nouveaute{
+    background-color:rgb(0, 255, 0,.24);
+    width: 164px;
+}
+.Nouveaux .Nouveaute p{
+    color: #008000;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    width: 164px;
+    margin-top: 51px;
+    margin-bottom: 40px;
+}
+
+.Nouveaute{
+    margin-bottom: 87px;
+}
+
+.desc p{
+    font-size: 25px;
+}
+.desc{
+    padding-right:50px ;
+}
+
+.decouvre{
+    font-weight: bold;
+    text-decoration: underline;
+}
+.img{
+    display: flex;
+}
+.imgicon img{
+    margin-top: 10px;
+}
+.icon .imgicon{
+    display: flex;
+    flex-direction: column;
+}
+
+.icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin-left: 40px;
+}
+
+.article{
+    position: relative;
+    bottom: 450px;
+    background-color: #fff;
+    margin-right:535px ;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.plus2titre{
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-bottom:152px ;
+}
+
+.titre{
+    margin-bottom: 63px;
+}
+.new{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:17px;
+}
+
+.desc p{
+    font-size: 30px;
+}
+
+.desc h3{
+
+    color: #008000;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    width: 164px;
+    margin-top: 51px;
+    margin-bottom: 40px;
+}
+
+.desc{
+    padding-left: 43px;
+    padding-bottom: 70px;
+}
+
+.desc .nouv{
+    background-color:rgb(0, 255, 0,.24);
+
+}
+
+.info{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    width: 536px;
+}
+

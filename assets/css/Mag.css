@@ -1,0 +1,104 @@
+.banniere-magasin{
+    background-image: url("/assets/img/Magasin/banniere.png");
+    width: auto;
+}
+
+.bann{
+    width: auto;
+    height: 627px;
+    background-color: rgba(0, 0, 0, 0.50);
+}
+
+.phrase-banniere{
+    width: 800px;
+}
+
+.page{
+    margin-left: 140px;
+
+}
+
+.titre{
+    width: 430px;
+    font-size: 75px;
+    font-weight: bold;
+    margin-bottom: 81px;
+}
+
+.titre h2{
+    color: #000000;
+}
+
+.location .desc{
+    font-size: 25px;
+    color: #000000;
+}
+
+.location{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    width: 1226px;
+    padding-left: 113px;
+    padding-top: 64px;
+    padding-right: 238px;
+    padding-bottom: 107px;
+    background-color: #fff;
+    position: relative;
+    bottom: 215px;
+}
+
+/* tire-lait */
+
+.info{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin-bottom: 80px;
+}
+
+.tire-lait{
+    display: flex;
+    justify-content: center;
+}
+
+.tire-lait .info .img img{
+    height: 100%;
+}
+
+.tire-lait .text{
+    width: 820px;
+    height: 388px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: #707070;
+}
+
+.tire-lait .text img{
+    margin-left: 104px;
+}
+
+/* image */
+
+.infomag{
+    height: 500px !important;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+}
+.imageColonne{
+    display: flex;
+    justify-content: center;
+
+}
+
+.imageColonne img{
+    margin: 20px;
+}
+
+.image{
+    margin-bottom: 191px;
+}

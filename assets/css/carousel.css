@@ -1,0 +1,93 @@
+.img-div{
+    width: 536px;
+    height: 560px;
+    margin-right:20px ;
+    
+}
+.carrousel{
+    width: auto;
+    height: 560px;
+    margin-bottom: 266px;
+}
+.slider{
+    z-index: 999;
+    position: relative;
+    background-color: #fff;
+
+}
+.div01{
+    background-image: url("assets/img/c1.png");
+    /* background-image: url("assets/img/c1.png"); */
+    /* background-size: cover; */
+    /* background-color: red; */
+    width: 536px;
+    height: 560px;
+    
+}
+.div02{
+    background-image: url("assets/img/c2.png");
+    background-size: cover;
+    width: 536px;
+    height: 560px;
+}
+.div3{
+    background-image: url("assets/img/c1.png");
+    /* background-size: cover; */
+    width: 536px;
+    height: 560px;
+}
+.div4{
+    background-image: url("assets/img/c2.png");
+    /* background-size: cover; */
+    width: 536px;
+    height: 560px;
+}
+
+.div5{
+    background-image: url("assets/img/c1.png");
+    /* background-size: cover; */
+    width: 536px;
+    height: 560px;
+}
+.div6{
+    background-image: url("assets/img/c2.png");
+    background-size: cover;
+    width: 536px;
+    height: 560px;
+}
+.div7{
+    background-image: url("assets/img/c1.png");
+    /* background-size: cover; */
+    width: 536px;
+    height: 560px;
+}
+.div8{
+    background-image: url("assets/img/c2.png");
+    /* background-size: cover; */
+    width: 536px;
+    height: 560px;
+}
+.div9{
+    background-image: url("assets/img/c2.png");
+    /* background-size: cover; */
+    width: 536px;
+    height: 560px;
+}
+
+.carrousel button{
+    
+    width: 140px;
+    height: 560px;
+    font-weight: bold;
+    background: #CFC8C6;
+    border:0;
+    left: 1762px;
+    bottom:560px;
+    z-index: 10000;
+    position: relative;
+    cursor: pointer;
+    font-size: 25px;
+}
+.carrousel button:hover{
+    background-color:#b6aeac ;
+}

@@ -1,0 +1,145 @@
+.banniere-produit{
+    background-image: url(/assets/img/Produit/slide\ 1.png);
+}
+.bann{
+    width:auto;
+    height: 627px;
+    background-color: rgba(0, 0, 0, 0.50);
+}
+.ab{
+    display: block;
+}
+
+.phrase-banniere{
+    padding-right: 150px;
+}
+.titre{
+    position: relative;
+    right: 330px;
+    top: 100px;
+
+}
+
+/* produit */
+
+.bouton2 button:hover{
+    background-color: grey;
+}
+
+.produit{
+    display: flex;
+    justify-content: center;
+    margin-top: 101px;
+}
+.produit .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 18px;
+    border: 4px solid #CFC8C6;
+}
+
+.explication, .imgproduit{
+    width: 812px;
+    height: 463px;
+}
+
+.explication .phrase{
+    /* margin-top: 76px;*/
+    margin-left: 58px;
+    margin-right: 88px;
+    font-size: 30px;
+    display: block;
+    /* margin-right: 88px; */
+
+}
+
+.imgproduit{
+    background-color: #CFC8C6;
+    
+}
+
+.imgproduit .img,.explication .phrase{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 463px;
+    /* text-align: center; */
+}
+
+/* .imgproduit .img img{
+    margin: auto;
+    display: block;
+} */
+
+.produit .colonne,.marque .colonne{
+    display: block;
+}
+
+/* marque */
+
+.marque{
+    display: flex;
+    justify-content: center;
+}
+
+.marque .container{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    margin-bottom: 18px;
+
+}
+
+
+.marque .container .img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 258px;
+}
+
+.marqueblock{
+    display: block;
+    margin-top: 170px;
+}
+.titre{
+    display: block;
+    margin-left: 330px;
+    margin-bottom: 123px;
+}
+
+.bouton button{
+    cursor: pointer;
+    border:0;
+    text-align: center;
+    background: #000;
+    color: #fff;
+    border-radius: 30px;
+    font-size: 29px;
+    width: 551px;
+    height: 59px;
+    z-index: 9999;
+}
+
+.bouton{
+    width: 691px;
+    height: 175;
+    /* display: flex; */
+}
+.bouton2{
+    display: flex;
+    justify-content: flex-end;
+    height: 175px;
+    align-items: center;
+    position: relative;
+    bottom: 175px;
+}
+
+.bouton .vert{
+    z-index: 1;
+    background-color: #00FF00;
+    width: 399px;
+    height: 175px;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 90px;
+}

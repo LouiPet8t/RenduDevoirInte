@@ -1,0 +1,40 @@
+body{
+    background:grey;
+}
+
+.slider{
+    margin:0 auto ;
+    
+}
+
+.img-div{
+    width: 488px;
+    height: 209px;
+    margin-right:20px ;
+}
+
+.div1{
+    background-image: url("../assets/img/imgHomepage/GreenSpring.png");
+    /* background-size: cover; */
+    width: 488px;
+    height: 209px;
+}
+.div2{
+    background-image: url("../assets/img/imgHomepage/GreenSpring.png");
+    /* background-size: cover; */
+    width: 488px;
+    height: 209px;
+}
+.div3{
+    background-image: url("../assets/img/imgHomepage/GreenSpring.png");
+    /* background-size: cover; */
+    width: 488px;
+    height: 209px;
+}
+.div4{
+    background-image: url("../assets/img/imgHomepage/GreenSpring.png");
+    /* background-size: cover; */
+    width: 488px;
+    height: 209px;
+}
+

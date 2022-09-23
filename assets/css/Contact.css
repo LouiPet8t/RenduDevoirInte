@@ -1,0 +1,247 @@
+.banniere-contact{
+    background-image: url("/assets/img/Contact/Bannière.png");
+    width: auto;
+}
+
+.bann{
+    width: auto;
+    height: 627px;
+    background-color: rgba(0, 0, 0, 0.50);
+}
+
+/*  */
+
+.contacter{
+    display: flex;
+    justify-content: center;
+}
+
+.Info{
+    background-color: #fff;
+    width: 1014px;
+    padding-top: 50px;
+    padding-left: 45px;
+}
+
+.titre{
+    font-size: 25px;
+    color: #707070;
+}
+
+.renseignement{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.reseau{
+    display: flex;
+    margin-bottom: 27px;
+    height: 48px;
+    align-items: center;
+}
+
+.contacter .text{
+    
+    width: 160px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #707070;
+    margin-left: 23px;
+}
+.phrase{
+    width: 780px;
+    margin-bottom: 50px;
+}
+.phrase p{
+    color: #707070;
+    font-size: 20px;
+
+}
+
+.Info{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.contacter{
+    position: relative;
+    bottom: 150px;
+}
+
+/* Accordion */
+
+.service{
+    display: flex;
+    justify-content: center;
+}
+
+.accordion{
+    background-color: #00FF00;
+    padding-left: 58px;
+    height: 136px;
+    align-items: center;
+    cursor: pointer;
+    width: 1640px;
+    border: none;   
+    text-align: left;
+    outline: none;
+    transition: 0.4s;
+    font-size: 35px;
+    font-weight: bold;
+    display: flex;
+    padding-right: 63px;
+    /* margin-bottom: 133px; */
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.active .imgAccordion{
+    background-image: url("/assets/img/CGV/chevron1.png");
+}
+
+.imgAccordion{
+    margin-left: auto;
+    background-image: url("/assets/img/CGV/chevron2.png");
+    width: 22.34px;
+    height: 13.79px;
+}
+
+.panel{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.desc{
+    margin-left: 24px;
+}
+
+.Patricia{
+    margin-left: 35px;
+    margin-top: 35px;
+}
+.profil{
+    display: flex;
+    justify-content: center;
+    height: 141px;
+    align-items: center;
+}
+
+.desc p{
+    font-size: 20px;
+    color: #707070;
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 287px;
+}
+
+
+
+.desc h3{
+    font-size: 30px;
+    font-weight: bold;
+    color: #707070;
+}
+
+.Patricia .contactInf .information{
+    display: flex;
+    height: 41px;
+    align-items: center;
+}
+
+.Patricia .contactInf .information{
+    margin-left: 57px;
+    margin-bottom: 14px;
+    /* margin-top: 40px; */
+    
+
+}
+
+.Patricia .contactInf .information img{
+    margin-right:23px ;
+}
+
+.Patricia .contactInf .information p{
+    font-size: 18px;
+    font-weight: bold;
+    color: #707070;
+}
+
+.Patricia .contactInf{
+    margin-top: 40px;
+}
+
+.contactInf .FormationText{
+    width: 421px;
+    font-size: 18px;
+    color: #707070;
+    margin-left: 57px;
+    margin-top: 37px;
+    margin-bottom: 80px;
+}
+
+.Patricia{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.panel{
+    display: none;
+    overflow: hidden;
+    margin-top: 75px;
+    margin-bottom: 80px;
+}
+
+
+form input,textarea{
+    width: 100%;
+    height: 30px;
+    padding-left:25px ;
+    padding-top: 15px;
+    border: 2px solid #ccc;
+    z-index: 1;
+    font-size: 20px;
+    height: 62px;
+    margin-bottom: 53px;
+    
+}
+textarea{
+    height: 240px;
+}
+form input{
+    padding-bottom:19px ;
+}
+
+::placeholder{
+    font-size: 20px;
+    
+}
+.Formulaire p{
+    color: #615B57;
+    font-size: 30px;
+    margin-bottom: 19px;
+}
+
+.Formulaire button{
+    display: block;
+    border:0;
+    text-align: center;
+    background: #000;
+    color: #fff;
+    border-radius: 30px;
+    font-size: 29px;
+    width: 311px;
+    height: 59px;
+    margin-top: 20px;
+    cursor: pointer;
+    
+}
+
+.Formulaire .titre{
+    margin-bottom: 75px;
+}
+
+
+.Formulaire{
+    margin-left: 140px;
+    margin-top: 111px;
+    width: 1226px;
+    margin-bottom: 177px;
+}

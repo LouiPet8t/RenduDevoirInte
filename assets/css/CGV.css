@@ -1,0 +1,97 @@
+.banniere-cgv{
+    background-image: url("/assets/img/CGV/banniere.png");
+    width: auto;
+}
+
+.bann{
+    width: auto;
+    height: 627px;
+    background-color: rgba(0, 0, 0, 0.50);
+}
+
+.page{
+    margin-left: 146px;
+    width: 1226px;
+    bottom: 85px;
+    position: relative;
+}
+
+.accordion{
+    background-color: #00FF00;
+    padding-left: 58px;
+    height: 136px;
+    align-items: center;
+    cursor: pointer;
+    width: 100%;
+    border: none;   
+    text-align: left;
+    outline: none;
+    transition: 0.4s;
+    font-size: 35px;
+    font-weight: bold;
+    display: flex;
+    padding-right: 63px;
+    /* margin-bottom: 133px; */
+    position: relative;
+
+
+}
+
+
+
+.img{
+    margin-left: auto;
+    background-image: url("/assets/img/CGV/chevron2.png");
+    width: 22.34px;
+    height: 13.79px;
+}
+
+.active .img{
+    background-image: url("/assets/img/CGV/chevron1.png");
+}
+/* panel */
+
+.panel{
+    display: none;
+    overflow: hidden;
+    padding-left: 113px;
+    padding-right: 144px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.panel .titre{
+    width: 800px;
+    margin-top: 91px;
+    margin-bottom:100px;
+
+}
+
+.panel .titre h2{
+    font-size: 75px;
+    font-weight: bold;
+    color: black;
+}
+.regle{
+    width: 1000px;
+    margin-bottom: 118px;
+}
+
+.regle p{
+    font-size: 25px;
+
+}
+
+.fleche{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 85px;
+}
+
+.footer{
+    margin-top:133px ;
+}
+
+.fleche a:hover{
+    cursor: pointer;
+}
+

@@ -1,0 +1,680 @@
+/* HOMEPAGE CSS */
+
+
+
+
+.phrase-banniereHomepage p{
+    color: #fff;
+    display:inline;
+}
+
+.phrase-banniereHomepage{
+    font-size: 38px;
+}
+
+.container-banniere .title{
+
+}
+
+.bann{
+    width: auto;
+    height: 627px;
+    background-color: rgba(0, 0, 0, 0.50);
+}
+
+.blocMag{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+}
+
+.Actualite .Nouveaute{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+}
+.Jobs .cv{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+}
+.banniereHomepage{
+    background-image: url("/assets/img/imgHomepage/imgInfo/banniere.png");
+    width:auto;
+    height: 627px;
+
+}
+.phrase-banniereHomepage{
+    width: 1450px;
+    height: 153px;
+}
+
+#titleHome{
+    margin-bottom: 37px;
+}
+.MagasinHomepage button:hover{
+    background-color: grey;
+    
+}
+/* Info */
+.client button:hover{
+    background-color: rgb(15, 151, 2);
+
+}
+.Actualite button:hover{
+    background-color: grey;
+}
+
+.info{
+    position: relative;
+    bottom:60px;
+}
+
+.info .container{
+    width: 1643px;
+    height: 501px;
+    display: grid;
+    margin-left: 144px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 19px;
+    position: relative;
+;
+
+
+
+}
+
+.infocontain{
+  background-color: #fff;  
+  text-align: center;
+  padding-top: 46px;
+  padding-left: 70px;
+  padding-right:70px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+}
+
+h5{
+    font-size: 25px;
+    font-weight: bold;
+    color: #707070;
+}
+
+.infocontain img{
+    margin-bottom: 25px;
+}
+
+.infocontain h5{
+    margin-bottom: 31px;
+}
+
+.infocontain p{
+    font-size: 20px;
+    color: #707070;
+}
+
+/* ESHOP */
+
+.eshopHomepage{
+    width: 1581px;
+    height: 832px;
+    margin-left: 140px;
+    margin-top: 105px;
+    /* border: 1px black solid; */
+}
+.eshopHomepage h3{
+    margin-bottom: 71px;
+}
+
+
+.divEH .titre{
+    margin-top: 21px;
+    margin-left: 49px;
+    margin-right: 113px;
+}
+.divEH .titre2{
+    margin-top: 21px;
+    margin-left: 44px;
+    margin-right: 57px;
+}
+
+.divEH .titre h3{
+    font-size: 40px;
+    font-weight:normal;
+    display: inline;
+}
+
+
+.divEH{
+    margin-right: 116px;
+    width: 635px;
+    height: 458px;
+    border: 1px solid #707070;
+
+
+}
+
+.divEH .titre img{
+    float: right;
+    display: inline;
+    margin-top: 30px;
+}
+
+.divEH .titre2 img{
+    float: right;
+    display: inline;
+    margin-top: 30px;
+}
+.divEH .titre2 h3{
+    font-size: 40px;
+    font-weight:normal;
+    display: inline;
+}
+
+.divIMG, .divIMG2{
+    position:relative;
+    bottom: 600px;
+    display: inline-block;
+    margin-top: 350px;
+
+}
+.divIMG{
+    margin-left: 117px;
+}
+
+.divIMG2{
+    margin-left: 109px;
+}
+
+/* Magasin */
+
+.MagasinHomepage{
+    width: 1780px;
+    height: 560px;
+    /* border: 1px solid black ; */
+    margin-left: auto;
+    display: block;
+    margin-top: 160px;
+    /* background-color: red; */
+    
+}
+
+.MagasinHomepage .img{
+    position: relative;
+    z-index: 1;
+    left: 690px;
+    /* float: right; */
+    /* border: 1px solid black; */
+    width: 1090px;
+    height: 560px;
+    bottom: 525px;
+    margin: 0;
+    
+    
+}
+
+
+
+.container-banniere .titre{
+    width: 800px;
+}
+
+.MagasinHomepage .titre{
+    margin-top: 78px;
+    width: 262px;
+    height: 94px;
+}
+
+.MagasinHomepage .Pinfo{
+    width: 439px;
+    height: 120px;
+    margin-top: 45px;
+    color: #615B57;
+    font-size: 30px;
+    display: inline-block;
+    
+
+}
+
+.MagasinHomepage .blocMag{
+    display: inline-block;
+    width: 289px;
+    height: 257px;
+    padding-top: 43px;
+    padding-left: 44px;
+    padding-right: 45px;
+    padding-bottom: 40px;
+    background-color: #fff;
+    position: relative;
+    margin-left: 156px;
+    top: 75px;
+    
+}
+.certif button:hover{
+    background-color: grey;
+}
+
+.MagasinHomepage .blocMag .pbold{
+    font-weight: bold;
+
+}
+.Jobs button:hover{
+    background-color: grey;
+}
+.blocMag{
+    z-index:999;
+    background-color: #fff;
+}
+
+.MagasinHomepage .blocMag p{
+    font-size: 18px;
+}
+
+.MagasinHomepage button{
+    cursor: pointer;
+    width: 288px;
+    height: 59px;
+    border-radius: 30px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    font-size: 29px;
+    border: 0;
+    margin-top: 85px;
+    display: block;
+}
+
+/* Carousel */
+
+/* .carrouselHomepage{
+    width: auto;
+    height: 374px;
+    margin-top: 160px;
+}
+
+.carrouselHomepage .img-div{
+    width: 488px;
+    height: 209px;
+    margin-right: 7px;
+}
+
+.slider{
+    z-index: 999;
+    position: relative;
+    background-color: #fff;
+
+}
+
+.carrouselHomepage .div1,.carrouselHomepage .div2,.carrouselHomepage .div3,.carrouselHomepage .div4,.carrouselHomepage .div5,.carrouselHomepage .div6,.carrouselHomepage .div7,.carrouselHomepage .div8,.carrouselHomepage .div9,.carrouselHomepage .div10{
+    background-image: url("/assets/img/imgHomepage/GreenSpring.png"); */
+/* }
+ */
+
+
+ .sliderHomepage{
+    margin: 0 auto;
+    /* border: 1px solid black; */
+    padding-top: 58px;
+ }
+
+ 
+
+ .carouselHomepage{
+    width: auto;
+    height: 374px;
+    margin-top: 160px;
+    /* border: 1px solid black; */
+
+ }
+
+
+.div-img{
+    width: 488px;
+    height: 209px;
+    margin-right:7px;
+    /* border: 1px solid black; */
+}
+
+.div001{
+    background-image: url("/assets/img/imgHomepage/GreenSpring.png");
+    /* background-size: cover; */
+    width: 488px;
+    height: 209px;
+}
+.div002{
+    background-image: url("/assets/img/imgHomepage/GreenSpring.png");
+    background-size: cover;
+    width: 488px;
+    height: 209px;
+}
+.div003{
+    background-image: url("/assets/img/imgHomepage/GreenSpring.png");
+    /* background-size: cover; */
+    width: 488px;
+    height: 209px;
+}
+.div004{
+    background-image: url("/assets/img/imgHomepage/GreenSpring.png");
+    /* background-size: cover; */
+    width: 488px;
+    height: 209px;
+}
+.div005{
+    background-image: url("/assets/img/imgHomepage/GreenSpring.png");
+    /* background-size: cover; */ 
+    width: 488px;
+    height: 209px;
+}
+
+.marque{
+    width: 413px;
+    height: 61px;
+    background-color:#CFC8C6 ;
+    padding-left:169px;
+    padding-top: 9px;
+    
+
+}
+
+.marque p{
+    font-size: 30px;
+    font-weight: bold;    
+}
+
+/* .decouvrir{
+    width: 375px;
+    height: 313px;
+    background-color: #CFC8C6;
+    z-index: 99999;
+    position: relative;
+
+
+
+} */
+
+.carouselHomepage button{
+    cursor: pointer;
+    width: 375px;
+    height: 313px;
+    background-color: #CFC8C6;
+    position: relative;
+    bottom: 268px;
+    left: 1525px;
+    border: 0;
+    font-size: 30px;
+    font-weight: bold;
+    /* float: right; */
+
+}
+
+
+/* Clients */
+.client{
+    width: auto;
+    height: 1099px;
+    background-image: url("/assets/img/imgHomepage/image.png");
+    margin-top: 160px;
+    padding-top: 125px;
+    padding-left: 157px;
+}
+
+.client h2{
+    font-size: 70px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.client .container{
+    margin-top: 156px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+    height: 344px;
+}
+.message{
+    padding-top:54px ;
+    padding-left: 75px;
+    padding-right: 55px;
+    height: 344px;
+    width: 509px;
+    background-image: url("/assets/img/imgHomepage/boxmessage.png");
+}
+.message p{
+    font-size: 20px;
+    color: #707070;
+}
+
+.profil img{
+    border-radius:90%;
+    margin-left: 10px;
+    display: inline;
+    margin-right: 30px;
+}
+.profil div{
+    display: inline-block;
+    position: relative;
+    bottom: 80px;
+}
+.profil div h4{
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.profil div p{
+    font-size: 25px;
+    color: #fff;
+}
+
+.boxclient .num{
+    background-color:#00FF00;
+    width: 62px;
+    height: 62px;
+    padding: 5px;
+    margin-left: 58px;
+    position: relative;
+    top: 25px;
+}
+
+.boxclient .num p{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+.client button{
+    cursor: pointer;
+    border:0;
+    text-align: center;
+    background: #00ff00;
+    color: #000;
+    border-radius: 30px;
+    font-size: 29px;
+    margin-bottom: 50px;
+    width: 288px;
+    height: 59px;
+}
+
+/* Actualité */
+
+.Actualite{
+    margin-top: 160px;
+    margin-left: 82px;
+    margin-right: 137px;
+    padding-left: 50px;
+}
+
+.Nouveaute{
+    margin-top: 73px;
+    width: 536px;
+    height: 628px;
+    margin-bottom: 85px;
+}
+
+.desc{
+    padding-left: 43px;
+}
+
+.desc .new{
+    background-color:rgb(0, 255, 0,.24);
+
+}
+.desc h3{
+
+    color: #008000;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    width: 164px;
+    margin-top: 51px;
+    margin-bottom: 40px;
+}
+
+.desc p{
+    font-size: 30px;
+    width: 401px;
+}
+
+.Actualite .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 17px;
+}
+
+.Actualite button{
+    cursor: pointer;
+    border:0;
+    text-align: center;
+    background: #000;
+    color: #fff;
+    border-radius: 30px;
+    font-size: 29px;
+    width: 288px;
+    height: 59px;
+}
+
+
+
+
+
+
+  /* Jobs */
+
+.Jobs{
+    width: 1783px;
+    height: 887px;
+    margin-top: 160px;
+    /* margin-right:137px ; */
+    /* margin-left: 137px; */
+    margin-left: auto;
+    display: block;
+}
+
+.Jobs img{
+    position:relative;
+    z-index: 1;
+    left: 642px;
+    /* float: right; */
+    bottom: 393px;
+    /* display: block; */
+    
+
+}
+
+.Jobs .titre{
+    margin-top: 78px;
+    width: 262px;
+    height: 94px;
+}
+
+.cv, .candidature{
+    width: 407px;
+    height: 121px;
+    z-index: 999;
+}
+.cv{
+    padding-top: 25px;
+    padding-left: 35px;
+    z-index: 999;
+    background-color: #fff;
+    margin-right: 50px;
+}
+.cv p{
+    font-size: 22px;
+}
+.cv .cdi{
+    font-size: 15px;
+    font-weight: bold;
+}
+.cv .lieu{
+    font-style: italic;
+    font-size: 19px;
+
+}
+
+.candidature{
+    text-align: center;
+    font-size: 25px;
+    background-color:#00FF00;
+    margin-right: 319px;
+    font-weight: bold;
+    /* vertical-align: middle; */
+    padding-top:42px ;
+    /* margin-left: 50px; */
+}
+.Jobs button, .certif button{
+    cursor: pointer;
+    display: block;
+    border:0;
+    text-align: center;
+    background: #000;
+    color: #fff;
+    border-radius: 30px;
+    font-size: 29px;
+    width: 288px;
+    height: 59px;
+    margin-top: 87px;
+}
+
+.Jobs .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 120px;
+    margin-top: 63px;
+    z-index: 999;
+}
+
+
+/* Certif */
+
+.certif{
+    margin-top: 115px;
+    margin-left: 137px;
+    width: 1700px;
+    padding-top: 20px;
+    margin-bottom: 145px;
+}
+.certif p{
+    margin-top: 56px;
+    font-size: 30px;
+    color: #615B57;
+    width: 1000px;
+    /* display: inline-block;
+    position: relative; */
+
+    
+}
+.certif .container{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.certif img{
+    margin-left: 160px;
+    /* display: block; */
+    width: 481.5px;
+    height: 492px;
+}
+
+.carouselHomepage button:hover{
+    background-color: #a8a4a2;
+}
+

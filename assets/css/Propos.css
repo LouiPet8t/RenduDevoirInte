@@ -1,0 +1,165 @@
+.banniere-propos{
+    background-image: url("/assets/img/Propos/banniere.png");
+    width: auto;
+}
+
+.bann{
+    width: auto;
+    height: 627px;
+    background-color: rgba(0, 0, 0, 0.50);
+}
+
+.page{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 126px;
+}
+
+/* propos */
+
+.propos{
+    display: flex;
+    margin-bottom: 265px;
+}
+
+.nombre{
+    text-align: center;
+    align-items: center;
+    height: 94px;
+    width: 94px;
+    background-color: #00FF00;
+}
+
+.nombre p{
+    display: block;
+    font-size: 65px;
+    font-weight: bold;
+}
+
+.nombre .titre{
+    font-size: 70px;
+    color: #615B57;
+
+}
+
+.text{
+    width: 832px;
+    font-size: 30px;
+    color: #615B57;
+    margin-top: 45px;
+}
+
+.propos button{
+    cursor: pointer;
+    margin-top: 60px;
+    border:0;
+    text-align: center;
+    background: #000;
+    color: #fff;
+    border-radius: 30px;
+    font-size: 29px;
+    width: 311px;
+    height: 59px;
+    margin-top: 135px;
+}
+
+.img{
+    margin-left: 154px;
+}
+
+.img img{
+    width: auto;
+    height: 530px;
+}
+
+/* Jobs */
+
+.Jobs{
+    width: 1783px;
+    height: 887px;
+    /* margin-top: 120px; */
+    /* margin-right:137px ; */
+    /* margin-left: 137px; */
+    /* margin-left: auto; */
+    /* display: block; */
+}
+
+.Jobs img{
+    position:relative;
+    z-index: 1;
+    left: 642px;
+    /* float: right; */
+    bottom: 393px;
+    /* display: block; */
+    
+
+}
+
+.Jobs .titre{
+    margin-top: 78px;
+    width: 262px;
+    height: 94px;
+}
+
+.cv, .candidature{
+    width: 407px;
+    height: 121px;
+    z-index: 999;
+}
+.cv{
+    padding-top: 25px;
+    padding-left: 35px;
+    z-index: 999;
+    background-color: #fff;
+    margin-right: 50px;
+}
+.cv p{
+    font-size: 22px;
+}
+.cv .cdi{
+    font-size: 15px;
+    font-weight: bold;
+}
+.cv .lieu{
+    font-style: italic;
+    font-size: 19px;
+
+}
+
+.candidature{
+    text-align: center;
+    font-size: 25px;
+    background-color:#00FF00;
+    margin-right: 319px;
+    font-weight: bold;
+    /* vertical-align: middle; */
+    padding-top:42px ;
+    /* margin-left: 50px; */
+}
+.Jobs button, .certif button{
+    display: block;
+    border:0;
+    text-align: center;
+    background: #000;
+    color: #fff;
+    border-radius: 30px;
+    font-size: 29px;
+    width: 288px;
+    height: 59px;
+    cursor: pointer;
+    margin-top: 87px;
+}
+
+.Jobs .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 120px;
+    margin-top: 63px;
+    z-index: 999;
+}
+
+.JobSecu{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 230px;
+}

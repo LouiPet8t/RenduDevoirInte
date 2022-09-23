@@ -1,0 +1,156 @@
+.banniere-jobs{
+    background-image: url("/assets/img/Jobs/banniere.png");
+    width: auto;
+}
+.bann{
+    width: auto;
+    height: 627px;
+    background-color: rgba(0, 0, 0, 0.50);
+}
+
+.phrase-banniere{
+    width: 1000px !important;
+}
+
+.location .titre{
+    width: 565px;
+    font-size: 75px;
+    font-weight: bold;
+    margin-bottom: 81px;
+}
+
+.page{
+    margin-left: 140px;
+
+}
+
+.titre h2{
+    color: #000000;
+}
+
+.location .desc{
+    font-size: 25px;
+    color: #000000;
+}
+
+.location{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    width: 1226px;
+    padding-left: 113px;
+    padding-top: 64px;
+    padding-right: 238px;
+    padding-bottom: 137px;
+    background-color: #fff;
+    position: relative;
+    bottom: 215px;
+}
+
+ul{
+    margin-left: 25px;
+}
+
+/* offre emplois */
+
+.offre{
+    display: flex;
+    justify-content: center;
+}
+
+.emplois{
+    margin-top: 55px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.emplois .proposition{
+    display: flex;
+    justify-content: center;
+    height: 210px;
+    align-items: center;
+    width: 812px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin-bottom: 32px;
+    cursor: pointer;
+
+}
+
+.proposition .img{
+    margin-left: 240px;
+}
+
+.text .lieu{
+    font-size: 20px;
+    color: #707070;
+    margin-bottom: 21px;
+}
+
+.text .type{
+    font-size: 30px;
+    font-weight: bold;
+    color: #707070;
+}
+
+.text .equipe{
+    font-size: 20px;
+    color: #707070;
+    margin-top: 8px;
+}
+
+.proposition2{
+    display: flex;
+    justify-content: center;
+    height: 210px;
+    align-items: center;
+    width: 812px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin-bottom: 32px;
+    cursor: pointer;
+    background-color: #00FF00;
+}
+
+.proposition2 .img{
+    margin-left: 297px;
+}
+
+.proposition2 p{
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+}
+
+.proposition {
+
+}
+
+.flou{
+    display: flex;
+    justify-content: center;
+    height: 210px;
+    align-items: center;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+}
+
+.annonce{
+    background-color: black;
+    color: #fff;
+    width: 196px;
+    height:38px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+    position: relative;
+    top: 47px;
+}
+
+.flou .img{
+    margin-left: 300px;
+    position: relative;
+    bottom: 15px;
+}
+
+.ensemble{
+    margin-bottom: 140px;
+}
